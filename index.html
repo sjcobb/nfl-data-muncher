@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Dojo DGrid Project</title>
+    <link rel="stylesheet" href="lib/dojo/resources/dojo.css">
+    <link rel="stylesheet" href="lib/dgrid/css/dgrid.css">
+    <link rel="stylesheet" href="lib/dgrid/css/skins/claro.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="claro">
+    <div class="content container">
+        <header>
+            <h1>NFL Data<span>Muncher</span></h1>
+            <div class="pac-man-wrap">
+                <div class="pac-man">
+            </div>
+        </header>
+        <main>
+            <form id="queryForm">
+                <!-- <button id="toggle">Show new teams</button> -->
+                <button id="filterDate"><span class="new">Show new teams</span><span class="all">Show all teams</span></button>
+                <button id="sortName">Sort by Name, Ascending</button>
+                <button id="sortDate">Sort by Founded Date, Descending</button>
+            </form>
+            <section id="grid"></section>
+            <section class="data-window">
+                <div id="result" ></div>
+
+                <div class="todo-list">
+                    <h2>TODOs</h2>
+                    <ul>
+                        <li><p>Implement GET Ajax requests (dojo/request) to <a href="https://api.nfl.com/docs/endpoints/teamProfile/index.html">NFL API</a> to load logo and other team info.</p></li>
+                        <li><p>Refactor and optimize functions.</p></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="lib/dojo/dojo.js"
+        data-dojo-config="async: true">
+    </script>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
