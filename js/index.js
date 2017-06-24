@@ -3,7 +3,7 @@
  */
 
 require(["dstore/RequestMemory", "dgrid/OnDemandGrid", "dojo/dom", "dojo/ready", "dojo/date/locale", "dojo/on", "dojo/query", "dojo/_base/window", "dojo/date", "dijit/form/Button", "dojo/data/ItemFileReadStore", "dojo/dom-style", "dojo/dom-class"], function(RequestMemory, OnDemandGrid, dom, ready, locale, on, query, win, date, button, ItemFileReadStore, domStyle, domClass){
-    var store = new RequestMemory({ target: '../json/nfl.json' });
+    var store = new RequestMemory({ target: '/nfl-data-muncher/json/nfl.json' });
     var grid = new OnDemandGrid({
         collection: store,
         columns: {
