@@ -1,0 +1,10 @@
+[
+{ "name": "Buffalo Bills", "website": "http://www.buffalobills.com", "division": "AFC East", "stadium": "Ralph Wilson Stadium", "stadium_capacity": "73079", "founded_date": "1959-10-28" },
+{ "name": "Miami Dolphins", "website": "www.miamidolphins.com", "division": "AFC East", "stadium": "Sun Life Stadium", "stadium_capacity": "75192", "founded_date": "1965-08-16" },
+{ "name": "New England Patriots", "website": "http://www.patriots.com", "division": "AFC East", "stadium": "Gillette Stadium", "stadium_capacity": "68756", "founded_date": "1959-11-22" },
+{ "name": "New York Jets", "website": "http://www.newyorkjets.com", "division": "AFC East", "stadium": "MetLife Stadium", "stadium_capacity": "82566", "founded_date": "1959-08-14" },
+{ "name": "Oakland Raider", "website": "www.raiders.com", "division": "AFC West", "stadium": "Alameda Coliseum", "stadium_capacity": "63026", "founded_date": "1960-01-30" },
+{ "name": "Cleveland Browns", "website": "http://www.clevelandbrowns.com", "division": "AFC North", "stadium": "Cleveland Browns Stadium", "stadium_capacity": "73200", "founded_date": "1944-06-04" },
+{ "name": "Pittsburgh Steelers", "website": "http://www.steelers.com", "division": "AFC North", "stadium": "Heinz Field", "stadium_capacity": "65050", "founded_date": "1933-07-08" },
+{ "name": "Indianapolis Colts", "website": "www.colts.com", "division": "AFC South", "stadium": "Lucas Oil Stadium", "stadium_capacity": "63000", "founded_date": "1953-01-23" }
+]
